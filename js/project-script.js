@@ -4,7 +4,7 @@ document.querySelector(".section-row").addEventListener("mousemove", function (n
     t.style.top = n.clientY + "px" */
     translateX = n.clientX - 150;
     translateY = n.clientY - 150;
-    t.style.transform = 'translateX(' + translateX + 'px) translateY(' + translateY + 'px) rotate(' + n.clientX + 'deg)';
+    t.style.transform = 'translateX(' + translateX + 'px) translateY(' + translateY + 'px)';
 });
 function n() {
     t.classList.add("hover")

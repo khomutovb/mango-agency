@@ -195,6 +195,7 @@ body.project {
 	background-repeat: no-repeat;
 	background-size: contain;
 	opacity: 0;
+	will-change: transform;
 }
 
 .cursor.hover {
