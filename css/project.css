@@ -97,6 +97,7 @@ body.project {
 	opacity: 0;
 	transform: translateX(-1rem);
 	transition: transform 0.3s, opacity 0.3s;
+	pointer-events: none;
 }
 
 .menu__item:hover::before {
