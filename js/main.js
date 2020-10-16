@@ -509,7 +509,7 @@ $you.on('mousemove', function (event) {
   $mango.css('transform', 'translateX(' + transX2 + 'px)  translateY(' + transY2 + 'px)');
 });
 $('.button-back').click(function () {
-  window.history.back();
+  history.back()
 })
 $('.button-up').click(function () {
   $('html, body').animate({ scrollTop: 0 }, 500);
