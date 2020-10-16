@@ -1,10 +1,10 @@
 let t = document.getElementById("cursor");
 document.querySelector(".section-row").addEventListener("mousemove", function (n) {
-/*     t.style.left = n.clientX + "px", 
-    t.style.top = n.clientY + "px" */
+    /*     t.style.left = n.clientX + "px", 
+        t.style.top = n.clientY + "px" */
     translateX = n.clientX - 150;
     translateY = n.clientY - 150;
-    t.style.transform = 'translateX(' + translateX + 'px) translateY(' + translateY + 'px)';
+    t.style.transform = 'translateX(' + translateX + 'px) translateY(' + translateY + 'px) rotate(' + n.clientX * 0.05 + 'deg)';
 });
 function n() {
     t.classList.add("hover")
