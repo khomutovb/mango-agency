@@ -1142,10 +1142,10 @@ footer {
         width: 100%;
     }
     body.main {
-        background-size: 1000% 1000%;
+        background-size: 4000% 4000%;
     }
     body .preloader {
-        background-size: 1000% 1000%;
+        background-size: 4000% 4000%;
     }
     body .center-block__text__title h1 {
         padding-bottom: 40px;
