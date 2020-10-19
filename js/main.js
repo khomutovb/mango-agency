@@ -1,7 +1,3 @@
-/* preloader */
-$(window).on('load', function () {
-  $('.preloader').delay(2000).fadeOut("700");
-});
 /* profile button */
 const LiquidButton = class LiquidButton {
   constructor(svg) {
