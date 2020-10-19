@@ -328,10 +328,10 @@
                     pmremGenerator.dispose();
                     render();
                     var roughnessMipmapper = new RoughnessMipmapper(renderer);
-                    var loader = new GLTFLoader(manager).setPath('mango/models/gltf/');
+                    var loader = new GLTFLoader().setPath('mango/models/gltf/');
                     loader.load('mango.gltf', function (gltf) {
                         var model = gltf.scene;
-                        var textureLoader = new THREE.TextureLoader();
+                        var textureLoader = new THREE.TextureLoader(manager);
                         var texture = textureLoader.load('mango/models/gltf/textures/texture.png');
                         texture.encoding = THREE.sRGBEncoding;
                         gltf.scene.traverse(child => {
