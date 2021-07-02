@@ -9,9 +9,6 @@ body {
     width: 100vw;
     background: linear-gradient(90deg, #F8D9F4, #ADC0FC, #F2FFD6, #D9F8FF, #FFDDD6, #FFFBD9);
     background-size: 2000% 2000%;
-    -webkit-animation: Gradient 25s ease infinite;
-    -moz-animation: Gradient 25s ease infinite;
-    animation: Gradient 25s ease infinite;
     overflow-x: hidden;
 }
 
